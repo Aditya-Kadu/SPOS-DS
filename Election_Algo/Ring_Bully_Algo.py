@@ -59,5 +59,7 @@ class Election_Algo:
 obj = Election_Algo(5)
 obj.kill_process(4)
 obj.kill_process(1)
+print("Ring Algorithm")
 obj.Ring(0)
+print("Bully Algorithm")
 obj.Bully(0)
